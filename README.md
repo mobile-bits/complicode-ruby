@@ -38,10 +38,11 @@ require "complicode"
 
 authorization_code = "29040011007"
 key = "9rCB7Sv4X29d)5k7N%3ab89p-3(5[A"
-code = Complicode::Generate.call(authorization_code, key, number: "1503", nit: "4189179011", issue_date: "20070702", amount: "2500")
-
+Complicode::Generate.call(authorization_code, key, number: "1503", nit: "4189179011", issue_date: "20070702", amount: "2500")
+# => "6A-DC-53-05-14"
 # If ignored, "nit" defaults to "0"
-code = Complicode::Generate.call(authorization_code, key, number: "1503", issue_date: "20070702", amount: "2500")
+Complicode::Generate.call(authorization_code, key, number: "1503", issue_date: "20070702", amount: "2500")
+# => "9E-84-73-A4"
 ```
 
 ## Tests
