@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    complicode (1.0.0)
+    complicode (1.0.1)
       radix (~> 2.2)
       ruby-rc4 (~> 0.1.5)
       verhoeff (~> 2.1)

@@ -10,8 +10,8 @@ Control code generator for invoices inside the Bolivian national tax service..
 Links:
 
   - [API Docs](https://www.rubydoc.info/gems/complicode)
-  - [Contributing](https://github.com/InspireNL/complicode/blob/master/CONTRIBUTING.md)
-  - [Code of Conduct](https://github.com/InspireNL/complicode/blob/master/CODE_OF_CONDUCT.md)
+  - [Contributing](https://github.com/pablocrivella/complicode/blob/master/CONTRIBUTING.md)
+  - [Code of Conduct](https://github.com/pablocrivella/complicode/blob/master/CODE_OF_CONDUCT.md)
 
 ## Requirements
 
@@ -63,5 +63,5 @@ Read [Semantic Versioning](https://semver.org) for details. Briefly, it means:
 
 ## License
 
-Copyright 2018 [Inspire Innovation BV](https://inspire.nl).
+Copyright 2018 [Pablo Crivella](https://pablocrivella.me).
 Read [LICENSE](LICENSE.md) for details.
