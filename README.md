@@ -5,7 +5,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/935822c7c481aa464186/maintainability)](https://codeclimate.com/github/pablocrivella/complicode/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/935822c7c481aa464186/test_coverage)](https://codeclimate.com/github/pablocrivella/complicode/test_coverage)
 
-Control code generator for invoices inside the Bolivian national tax service..
+Control code generator for invoices inside the Bolivian national tax service.
 
 Links:
 
