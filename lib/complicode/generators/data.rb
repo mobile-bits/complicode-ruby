@@ -5,7 +5,7 @@ module Complicode
     class Data
       # @param authorization_code [String]
       # @param invoice [Complicode::Invoice]
-      # @param partial_keys [Array<String>]
+      # @param partial_keys [Array<Complicode::PartialKey>]
       # @return [String]
       def self.call(authorization_code, invoice, partial_keys)
         authorization_code += partial_keys[0].value

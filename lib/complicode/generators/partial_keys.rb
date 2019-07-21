@@ -5,7 +5,7 @@ module Complicode
     class PartialKeys
       # @param key [String]
       # @param verification_digits [String]
-      # @return [Array<String>]
+      # @return [Array<Complicode::PartialKey>]
       def self.call(key, verification_digits)
         partial_key_sizes = verification_digits.split("").map { |digit| digit.to_i + 1 }
         partial_key_sizes.map do |index|

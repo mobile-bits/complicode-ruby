@@ -12,9 +12,9 @@ module Complicode
       # @param partial_keys [Array<String>]
       # @return [String]
       def self.call(ascii_sums, partial_keys)
-        ascii_sums.partials.each_with_index.inject(0) do |sum, (partial_sum, index)|
+        ascii_sums.partials.each_with_index.inject(0) { |sum, (partial_sum, index)|
           sum + ascii_sums.total * partial_sum / partial_keys[index].size
-        end.b(10).to_s(BASE64)
+        }.b(10).to_s(BASE64)
       end
     end
   end
