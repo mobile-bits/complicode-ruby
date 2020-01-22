@@ -2,7 +2,7 @@
 
 require "spec_helper"
 
-RSpec.describe Complicode::Generate do
+RSpec.describe Complicode::Generator do
   describe "#call" do
     subject { described_class.new.call(authorization_code: authorization_code, key: key, invoice: invoice) }
 
