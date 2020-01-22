@@ -9,7 +9,7 @@ RSpec.describe Complicode::Generator do
     let(:authorization_code) { "29040011007" }
     let(:key) { "9rCB7Sv4X29d)5k7N%3ab89p-3(5[A" }
     let(:invoice) do
-      Complicode::Invoice.new(nit: 4189179011, number: 1503, issue_date:  Date.new(2007, 7, 2), amount: 2500.0)
+      Complicode::Invoice.new(nit: 4189179011, number: 1503, issue_date: Date.new(2007, 7, 2), amount: 2500.0)
     end
 
     it { is_expected.to eq "6A-DC-53-05-14" }
