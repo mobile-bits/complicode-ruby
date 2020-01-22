@@ -40,18 +40,17 @@ require "complicode"
 
 authorization_code = "29040011007"
 key = "9rCB7Sv4X29d)5k7N%3ab89p-3(5[A"
-Complicode::Generate.call(authorization_code, key, number: "1503", nit: "4189179011", issue_date: "20070702", amount: "2500")
+invoice = Complicode::Invoice.new(number: 1503, nit: 4189179011, issue_date: Date.new(2007, 7, 2), amount: 2500.0)
+generator = Complicode::Generator.new
+generator.call(authorization_code: authorization_code, key: key, invoice: invoice)
 # => "6A-DC-53-05-14"
-# If ignored, "nit" defaults to "0"
-Complicode::Generate.call(authorization_code, key, number: "1503", issue_date: "20070702", amount: "2500")
-# => "9E-84-73-A4"
 ```
 
 ## Tests
 
 To test, run:
 
-```
+```shell
 bundle exec rspec spec/
 ```
 
@@ -65,5 +64,5 @@ Read [Semantic Versioning](https://semver.org) for details. Briefly, it means:
 
 ## License
 
-Copyright 2018 [Pablo Crivella](https://pablocrivella.me).
+Copyright 2020 [Pablo Crivella](https://pablocrivella.me).
 Read [LICENSE](LICENSE) for details.
