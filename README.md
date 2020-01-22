@@ -3,7 +3,6 @@
 [![Gem](https://img.shields.io/gem/v/complicode.svg?style=flat)](http://rubygems.org/gems/complicode)
 [![Depfu](https://badges.depfu.com/badges/6f2f73672eae4d603d6ae923164435e2/overview.svg)](https://depfu.com/github/pablocrivella/statics?project=Bundler)
 [![Inline docs](http://inch-ci.org/github/pablocrivella/complicode.svg?branch=master&style=shields)](http://inch-ci.org/github/pablocrivella/complicode)
-[![CircleCI](https://circleci.com/gh/pablocrivella/complicode.svg?style=svg)](https://circleci.com/gh/pablocrivella/complicode)
 [![Maintainability](https://api.codeclimate.com/v1/badges/d874a9673862541f247b/maintainability)](https://codeclimate.com/github/pablocrivella/complicode/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/d874a9673862541f247b/test_coverage)](https://codeclimate.com/github/pablocrivella/complicode/test_coverage)
 
@@ -11,9 +10,9 @@ Control code generator for invoices inside the Bolivian national tax service.
 
 Links:
 
-  - [API Docs](https://www.rubydoc.info/gems/complicode)
-  - [Contributing](https://github.com/pablocrivella/complicode/blob/master/CONTRIBUTING.md)
-  - [Code of Conduct](https://github.com/pablocrivella/complicode/blob/master/CODE_OF_CONDUCT.md)
+- [API Docs](https://www.rubydoc.info/gems/complicode)
+- [Contributing](https://github.com/pablocrivella/complicode/blob/master/CONTRIBUTING.md)
+- [Code of Conduct](https://github.com/pablocrivella/complicode/blob/master/CODE_OF_CONDUCT.md)
 
 ## Requirements
 
