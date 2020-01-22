@@ -9,6 +9,7 @@ require "pry"
 require "pry-byebug"
 require "smarter_csv"
 require "complicode"
+require "support/test_cases"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
