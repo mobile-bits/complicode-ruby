@@ -1,9 +1,9 @@
-name: Ruby
+name: Test
 
 on: [push]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,12 +12,9 @@ jobs:
       uses: actions/setup-ruby@v1
       with:
         ruby-version: 2.6.x
-    
+
     - name: Run tests
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
         bundle exec rspec
-    
-    - name: StandardRB checks
-      uses: amoeba/standardrb-action@v2
