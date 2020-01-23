@@ -50,7 +50,7 @@ module Complicode
       end
     end
 
-    # @param invoice [Array<String>]
+    # @param seeds [Array<String>]
     # @return [String]
     def generate_verification_digits(seeds)
       sum = seeds.map(&:to_i).sum
@@ -70,7 +70,7 @@ module Complicode
       seeds.map.with_index { |seed, index| seed + partial_keys[index].value }
     end
 
-    # @param encrypted_data [String]
+    # @param data [String]
     # @param partials_count [Integer]
     # @return [Struct]
     def generate_ascii_sums(data, partials_count)

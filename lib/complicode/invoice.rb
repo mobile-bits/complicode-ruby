@@ -4,10 +4,10 @@ module Complicode
   class Invoice
     attr_reader :nit, :amount, :issue_date, :number
 
-    # @param [Integer] :nit
-    # @param [Integer] :number
-    # @param [Float] :amount
-    # @param [Date] :issue_date
+    # @param [Integer] nit
+    # @param [Integer] number
+    # @param [Float] amount
+    # @param [Date] issue_date
     def initialize(nit:, number:, issue_date:, amount:)
       @amount = Float(amount)
       @nit = Integer(nit)
